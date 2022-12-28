@@ -1,0 +1,74 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(103, 37, 83), rgb(106, 76, 150));
+}
+
+.center{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 2px solid rgb(105, 126, 119);
+    text-align: center;
+    background-color: rgb(165, 202, 190);
+    width: 50vw;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.entrada{
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.submit{
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
+}
+
+h3{
+    color: rgb(68, 16, 16);
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#demo{
+    border: 2px solid rgb(105, 126, 119);
+    background-color: rgb(230, 255, 247);
+    margin-top: 20px;
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.name{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
